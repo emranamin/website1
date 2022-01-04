@@ -2,6 +2,9 @@ body{
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
 }
+h2{
+    font-size: 40px;
+}
 h1{
     font-size: 50px;
     
@@ -18,7 +21,7 @@ h1{
     padding: 10px 20px;
     text-decoration: none;
 }
-section{
+.sectionflex{
     display: flex;
     padding-left: 5%;
 }
@@ -39,4 +42,31 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    margin-bottom: 150px;
+}
+.sec3{
+   
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 150px;}
+.experiences{
+    box-shadow: 10px 10px 40px saddlebrown;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    width: 40%;
+    padding: 2%;
+    border-left: 7px solid;
+  
+}
+.borderleft{
+    
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+.borderright{
+    
+    border-image:linear-gradient(rgb(226, 27, 210),#fbff00);
+    border-image-slice: 1;
 }
