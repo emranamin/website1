@@ -1,6 +1,9 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 h1{
     font-size: 50px;
-    font-family: 'Montserrat', sans-serif;
+    
 }
 #name{
     color:orangered;
@@ -13,6 +16,14 @@ h1{
     background-image: linear-gradient(red ,tomato);
     padding: 0.6%;
     text-decoration: none;
-
-
+}
+.sec{
+    display: flex;
+    
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 100%;
 }
