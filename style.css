@@ -1,5 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 h1{
     font-size: 50px;
@@ -14,16 +15,22 @@ h1{
     font-size: 18px;
     border: 1px solid;
     background-image: linear-gradient(red ,tomato);
-    padding: 0.6%;
+    padding: 10px 20px;
     text-decoration: none;
 }
-.sec{
+section{
     display: flex;
-    
+    padding-left: 5%;
+}
+.sec{
+   
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
 .half-width{
     width: 50%;
+    padding-left: 2% ;
 }
 .half-width img{
-    width: 100%;
+    width: 80%;
 }
