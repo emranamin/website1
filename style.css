@@ -1,0 +1,18 @@
+h1{
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+#name{
+    color:orangered;
+}
+.hireme{
+    color: white;
+    font-family: 'Heebo', sans-serif;   
+    font-size: 18px;
+    border: 1px solid;
+    background-image: linear-gradient(red ,tomato);
+    padding: 0.6%;
+    text-decoration: none;
+
+
+}
