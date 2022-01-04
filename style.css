@@ -70,3 +70,6 @@ h1{
     border-image:linear-gradient(rgb(226, 27, 210),#fbff00);
     border-image-slice: 1;
 }
+footer{
+    text-align: center;
+}
